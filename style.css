@@ -1,0 +1,38 @@
+body {
+    margin: 0.5rem;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgba(107,114,128,var(--tw-text-opacity));
+    --tw-text-opacity: 1;
+    font-size: 1.2rem;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 3rem;
+}
